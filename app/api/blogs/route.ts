@@ -1,4 +1,4 @@
-blogs = [
+const blogs = [
   {
     "id": 1,
     "title": "Getting Started with JSON",
@@ -21,7 +21,8 @@ blogs = [
     "content": "When designing an API, consider these key principles...",
     "likes": 28
   }
-]
+];
+
 import { NextResponse } from 'next/server'
 
 export async function GET() {
